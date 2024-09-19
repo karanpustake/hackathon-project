@@ -6,7 +6,7 @@ function Bottom() {
   return (
     <div >
         <div>
-            <div className='h-auto mt-12  w-auto bg-orange-400 font-barlow flex items-center justify-between '>
+            <div className=' mt-12  w-auto bg-orange-400 font-barlow flex items-center justify-between '>
                 <div className='mx-12 flex items-center gap-6 py-3 '>
                     <div>
 

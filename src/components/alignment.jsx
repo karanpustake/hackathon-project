@@ -30,7 +30,7 @@ function Alignment() {
         <SecondPage/>
         </div>
         <h1 className='text-6xl font-Outfit mx-64'>Indian Festivals: </h1>
-        <div className='pb-12'>
+        <div className=''>
 
           <Thirdpage />
         </div>

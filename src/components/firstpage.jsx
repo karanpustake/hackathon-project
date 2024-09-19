@@ -7,7 +7,8 @@ function Firstpage() {
       <h1 className='text-white text-6xl font-Arimo font-semibold shadow-black drop-shadow-xl'>Explore India</h1>
       <h1 className='text-white text-6xl font-Outfit font-lightbold drop-shadow-xl'>Enjoy luxurious adventures with us !</h1>
     </div>
-  </div></div>
+  </div>
+  </div>
   )
 }
 
