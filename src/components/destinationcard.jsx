@@ -5,7 +5,7 @@ function Destinationcard({imgcard, title, description, rating, places, link}) {
   
   return (
     <div>    <div >
-       <a href={`${link}`}>
+       <a href={`${link}`} target='_blank'>
     <div className={`w-64 h-[63vh] bg-slate-100 drop-shadow-xl overflow-hidden m-3 rounded-md font-Exo `}>
     <div className=''>
         <div className=''>
@@ -25,7 +25,7 @@ function Destinationcard({imgcard, title, description, rating, places, link}) {
             <p className='places text-lg text-amber-900'>{places}</p>
             <div className='bg-slate-300 p-3 rounded-md hover:bg-slate-400 cursor-pointer transition duration-300 text-center'>
 
-            <a  href={`${link}`}>Explore</a>
+            <a  href={`${link}`} target='_blank'>Explore</a>
             </div>
         </div>
 

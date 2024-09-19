@@ -9,7 +9,7 @@ function FestivalCrd({title, imgcard,}) {
     const [isHovered, setIsHovered] = useState()
    return (
      <div >
-        <a href={``}>
+        <a href={``} target='_blank'>
  
         
  
@@ -22,7 +22,7 @@ function FestivalCrd({title, imgcard,}) {
            </div>
            <hr className='border-gray-800 mx-3 border-[1px]'/>  
            <div className='explore cursor-pointer mt-2 bg-red-50 p-4 transition duration-200 hover:bg-orange-200 flex items-center gap-3 rounded-b-lg' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-             <button className=' text-lime-900 text-2xl'>Explore</button>
+             <button className=' text-lime-900 text-2xl' target='_blank'>Explore</button>
              {isHovered ?(
                <MdArrowOutward /> 
                

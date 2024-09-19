@@ -1,6 +1,7 @@
 // src/components/Thirdpage.jsx
 import React from 'react';
 import FestivalCrd from './festivalCrd';
+import Bottom from './bottom';
 
 
 function Thirdpage() {
@@ -18,6 +19,9 @@ function Thirdpage() {
   ];
 
   return (
+    <div>
+
+    
     <div className='flex justify-center mt-12'>
       <div className='grid grid-cols-3 justify-items-center gap-12 mx-auto'>
         <FestivalCrd imgcard={festimages[0]} title="GANESH CHATURTHI"/>
@@ -29,6 +33,8 @@ function Thirdpage() {
         
         
       </div>
+      </div>
+      <Bottom/>
     </div>
   );
 }

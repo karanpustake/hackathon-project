@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        
+        barlow: ['Barlow Condensed', 'sans-serif']
       }
     },
   },

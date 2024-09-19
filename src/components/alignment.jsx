@@ -5,7 +5,7 @@ import SecondPage from './secondPage';
 import Thirdpage from './thirdpage';
 function Alignment() {
   return (
-    <div>
+    <div className=''>
       <div>
     <div className=''>
 
@@ -31,15 +31,17 @@ function Alignment() {
         </div>
         <h1 className='text-6xl font-Outfit mx-64'>Indian Festivals: </h1>
         <div className='pb-12'>
-          
+
           <Thirdpage />
         </div>
        </div>
-       <div>
-        
-       </div>
+       
+       
   </div>
-  </div></div>
+  
+  </div>
+  
+  </div>
   )
 }
 
