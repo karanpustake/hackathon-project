@@ -6,7 +6,7 @@ function Destinationcard({imgcard, title, description, rating, places, link}) {
   return (
     <div>    <div >
        <a href={`${link}`} target='_blank'>
-    <div className={`w-64 h-[63vh] bg-slate-100 drop-shadow-xl overflow-hidden m-3 rounded-md font-Exo `}>
+    <div className={`w-64 h-[62vh] bg-slate-100 drop-shadow-xl overflow-hidden m-3 rounded-md font-Exo `}>
     <div className=''>
         <div className=''>
           <img src={`${imgcard}`} alt="" srcset="" className='h-44 w-auto'/>
